@@ -13,6 +13,7 @@ p{
   margin: 4px 2px;
   transition: 0.3s;
   letter-spacing: 1px;
+  border-radius: 4px;
 }
 
 .btn:hover{
@@ -68,4 +69,24 @@ a{
 .navButton:hover{
   letter-spacing: 3px;
   transition: 0.3s;
+  cursor: pointer;
+}
+
+img:hover{
+  width: 23%;
+  transition: .3s;
+}
+
+img{
+  transition: .3s;
+}
+
+.helloHeading{
+  transition: .3s;
+  width: 10vw;
+}
+
+.helloHeading:hover{
+  letter-spacing: 4px;
+  transition: .3s;
 }
